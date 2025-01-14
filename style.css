@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+.navigasi {
+    background-color: #003B46;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 700px;
+    padding-top: 22px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: #07575B;
+    font-style: italic; 
+}
+
+.banner {
+    background-color: #66A5AD;
+    height: 800px;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    border-radius: 100px;
+    height: 200px;
+    border: 3px solid white;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+}
+
+.banner p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #C4DFE6;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span::before {
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 50px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Saya Muhammad Daffa Zainul Muttaqin';
+    }
+    100% {
+        content: 'Terima Kasih Sudah Singgah!';
+    }
+}
+
+.box-aboutme {
+    text-align: center;
+    color: #003B46;
+    margin-top: 100px;
+}
+
+.box-kiri1, .box-tengah1, .box-kanan1 {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-kiri1:hover, .box-tengah1:hover, .box-kanan1:hover {
+    background-color: #66A5AD;
+    color: white;
+}
+
+.box-aboutme h3, .box-aboutme p {
+    margin-top: 30px;
+    margin-bottom: 13px;
+    padding: 0 20px;
+}
+
+.box-pendidikan {
+    text-align: center;
+    color: #003B46;
+    margin-top: 500px;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #66A5AD;
+    color: white;
+}
+
+.box-pendidikan h3, .box-pendidikan p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0 20px;
+}
+
+.box-kontak img {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.box-kontak {
+    text-align: center;
+    color: #003B46;
+    margin-top: 500px;
+}
+
+.footer {
+    background-color: grey;
+    width: 99.9%;
+    height: 50px;
+    color: white; 
+    padding: 3px;
+    text-align: center;
+    margin: 450px auto 0;
+}
